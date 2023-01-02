@@ -9,10 +9,12 @@ variable "pm_node" {
 
 variable "pm_user" {
   type = string
+  default = ""
 }
 
 variable "pm_password" {
   type = string
+  default = ""
 }
 
 variable "ssh_key_file" {
