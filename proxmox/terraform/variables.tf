@@ -3,15 +3,16 @@ variable "pm_api_url" {
 }
 
 variable "pm_node" {
-  default = "pve"
+  type = "string"
+  default = "pve6"
 }
 
 variable "pm_user" {
-  default = ""
+  type = string
 }
 
 variable "pm_password" {
-  default = ""
+  type = string
 }
 
 variable "ssh_key_file" {
